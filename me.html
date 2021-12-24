@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+  <head>
+    <style>
+		.img{
+
+			transition: width 0.2s ease;
+			width: 10%;
+		}
+		ul {
+		  list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+		  overflow: hidden;
+		  background-color: #333;
+		}
+
+		li {
+		  float: left;
+		}
+
+		li a {
+		  display: block;
+		  color: white;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		}
+
+		/* 当鼠标悬停时把链接颜色更改为 #111（黑色） */
+		li a:hover {
+		  background-color: #111;
+		}
+		.active {
+		  background-color: #4CAF50;
+		}
+    </style>
+
+		<title>自我介绍</title>
+        <div >
+			
+          <ul>
+            <li><a href="home.html">我的主页</a></li>
+            <li><a class="active" href="me.html">自我介绍</a></li>
+            <li><a href="family.html">我的阅读</a></li>
+          </ul>
+        </div>
+    
+    
+
+  </head>
+  <body style="background-color: lightyellow">
+
+
+    <div style="font-size:20px; margin-top:3%; margin-left:10%">
+		<p>
+			<span style="font-weight:bold">姓名：</span>   
+			<span>小熊</span>
+		</p>
+		<p>
+			<span style="font-weight:bold">性别：</span>   
+			<span>男</span>
+		</p>
+		<p>
+			<span style="font-weight:bold">星座：</span>   
+			<span>狮子座</span>
+		</p>
+		<p>
+			<span style="font-weight:bold">爱好：</span>   
+			<span>读书、吃竹子、爬树</span>
+		</p>
+		<p>
+			<span style="font-weight:bold">生活照：</span>   
+			<span><img src="bear.png" alt=""  class="img"></span>
+			<span><img src="man.png" alt=""  class="img"></span>
+		</p>
+		<p>
+			<span style="font-weight:bold">人生格言：</span>   
+			<span>好好学习，天天向上</span>
+		</p>
+		<p>
+			<span style="font-weight:bold">留言板：</span>   
+			<form>
+			<input style="width:200px" type="text" name="name" value="姓名">
+			<br><br>
+			<input style="width:200px;height:80px"; type="text" name="cnt" value="内容...">
+			<br><br>
+			<input type="submit" value="提交">
+			</form> 
+		</p>
+
+    </div>
+  </body>
+</html>
